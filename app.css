@@ -19,7 +19,7 @@ body {
     margin-top: 10vh;
   }
   .text-box {
-    max-height: 70vh;
+    height: 200%;
     overflow: scroll;
   }
   .text-box:focus {
