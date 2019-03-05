@@ -1,3 +1,5 @@
+
+
 window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 const synth = window.speechSynthesis;
 const recognition = new SpeechRecognition();
@@ -7,10 +9,12 @@ recognition.maxAlternatives = 10;
 recognition.continuous = true;
 
 const recordIcon = document.querySelector('#recordButton');
+const fileToUpload = document.querySelector('#fileToUpload');
 const stopIcon = document.querySelector('#stopButton');
 const displayIcon = document.querySelector('#displayContent');
+const generateIcon = document.querySelector('#generateArticle');
 let paragraph = document.createElement('p');
-let container = document.querySelector('.text-box');
+let container = document.querySelector('#inputText');
 container.appendChild(paragraph);
 const sound = document.querySelector('.sound');
 
@@ -25,9 +29,15 @@ stopIcon.addEventListener('click', () => {
 });
 
 displayIcon.addEventListener('click', () => {
-  populatePre('uploads/ReadMe.txt');
+  populatePre('uploads/nlp.txt');
 });
 
+// send content to python backend
+
+
+
+
+    
 const dictate = () => {
 
   recognition.start();

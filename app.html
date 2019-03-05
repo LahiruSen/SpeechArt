@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -8,20 +11,18 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="app.css">
     <script src="js/bootstrap.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">8
     <!-- load font awesome here for recordIcon used on the page -->
-
-
 </head>
 <body>
 
 <h1 align="center"> Welcome to SpeechArt </h1>
 
-
-<div class="container"> <!--page container -->
+<div class="container">
+<form class="container"  action="http://127.0.0.1:5000/capture" method="get"> <!--page container -->
     <strong> Your speech will be displayed here...</strong>
     <div>
-    <div class="text-box" contenteditable="true"  style=" max-height: 100%; max-width: 100%; background-color: rgba(0,0,255,.1)"></div>
+    <div id="inputText" name="inputText" class="text-box" contenteditable="true" type="text" value="Type here"  style=" max-height: 100%; max-width: 100%; background-color: rgba(0,0,255,.1)"></div>
     <!--text box which will contain spoken text -->
         <!--<i class="fa fa-microphone"></i> &lt;!&ndash; microphone recordIcon to be clicked before speaking &ndash;&gt;-->
 
@@ -31,33 +32,26 @@
 
     <button  id="recordButton" type="button" class="btn btn-primary btn-block">Record</button>
     <button  id="stopButton" type="button" class="btn btn-primary btn-block">Stop</button>
+    <input id="generateArticle" type="submit" value="GenerateArticle" name="submit" class="btn btn-primary btn-block" > <br>
 
+</form>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-<br>
+
         Select text or pdf to upload :<br>
         <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary"> <br> <br>
 
         <input type="submit" value="Upload File" name="submit" class="btn btn-primary btn-block"> <br>
     </form>
 
-    <button  id="displayContent" type="button" class="btn btn-primary btn-block">Display</button>
+    <button  id="displayContent" type="button" class="btn btn-primary btn-block">Display</button> <br>
 
-    <script src="app.js"></script>
+
+
+
 </div>
-
-
-
-
-
+    <script src="app.js"></script>
 
 </body>
-
-
-
-
-
-
-
 
 </html>
 
