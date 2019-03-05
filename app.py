@@ -14,9 +14,10 @@ app = Flask(__name__)
 #     return render_template('app.html')
 
 @app.route('/capture', methods=['GET', 'POST'])
-
 def parse_request():
-    return "your text is "+request.args.get("inputText")
+    data = request.data
+    request.args.get("inputText")
+    return "your text will be typed here..." + request.args.get("inputText")
 
 
 # run Flask app
