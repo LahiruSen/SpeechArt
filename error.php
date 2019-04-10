@@ -1,7 +1,11 @@
 <?php
 /* Displays all error messages */
-if (session_status() == PHP_SESSION_NONE) {    session_start();}
+if (session_status() == PHP_SESSION_NONE) {    session_start();
+}
 ?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,12 +19,12 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
         <h1><?= 'Error'; ?></h1>
         <h5 class="text-danger">
             <?php
-            if( isset($_SESSION['message']) ):
+            if( isset($_SESSION['message']) ){
                 echo $_SESSION['message'];
-                unset($_SESSION['message']);
-            else:
-                header( "location: index.php" );
-            endif;
+                unset($_SESSION['message']);}
+            else{
+                header( "location: index.php" );}
+
             ?>
         </h5>
     </div>

@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 //
 //    elseif (isset($_POST['register'])) { //user registering
 //
-//        require 'signup.php';
+//        require 'register.php';
 //
 //    }
 //}
@@ -31,10 +31,10 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 <body>
 
 <div class="form">
-<h1  style="color:Tomato;">Speech Art</h1>
+    <h1  style="color:Tomato;">Speech Art</h1>
     <ul class="tab-group">
         <li class="tab"><a href="signup.php">Sign Up</a></li>
-        <li class="tab active"><a href="index.php">Log In</a></li>
+        <li class="tab active"><a href="login.php">Log In</a></li>
     </ul>
 
     <div class="tab-content">
@@ -46,25 +46,42 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
             </div>
 
 
-            <form action="login.php" method="post" autocomplete="off">
+            <form action="register.php" method="post" autocomplete="off">
+
+                <div class="top-row">
+                    <div class="field-wrap">
+                        <label>
+                            First Name<span class="req">*</span>
+                        </label>
+                        <input pattern="[A-Za-z]+" title="Can't have numbers and special characters" type="text" required autocomplete="off" name='firstname'  />
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Last Name<span class="req">*</span>
+                        </label>
+                        <input pattern="[A-Za-z]+" type="text" required autocomplete="off" name='lastname' title="Can't have numbers and special characters" />
+                    </div>
+                </div>
 
                 <div class="field-wrap">
                     <label>
                         Email Address<span class="req">*</span>
                     </label>
-                    <input type="email" required autocomplete="off" name="email"/>
+                    <input type="email" required autocomplete="off" name='email' />
                 </div>
 
                 <div class="field-wrap">
                     <label>
-                        Password<span class="req">*</span>
+                        Set A Password<span class="req">*</span>
                     </label>
-                    <input type="password" required autocomplete="off" name="password"/>
+
+                    <input  id="password" type="password" required autocomplete="off" name='password' aria-describedby="btnGroupAddon" pattern=".{8,}" title="Should have atleast 8 charactors" />
+                    <span id="passwordicon" class="fa fa-eye " style="color: white; float: right; margin-right: 10px;margin-top: -24px; position: relative;z-index: 2;" ></span>
                 </div>
 
-<!--                <p class="forgot"><a href="forgot.php">Forgot Password?</a></p>-->
 
-                <button class="button button-block" name="login" type="submit" />Log In</button>
+                <button type="submit" class="button button-block" name="register" />Register</button>
 
             </form>
 
@@ -110,7 +127,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
         </div>
 
     </div
-><!-- tab-content -->
+    ><!-- tab-content -->
 
 
 
@@ -118,9 +135,10 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 
 <!-- /form -->
-<script src='js/jquery.min.js'></script>
-
-<script src="js/index.js"></script>
+<!--<script src='js/jquery.min.js'></script>-->
+<!---->
+<!--<script src="js/index.js"></script>-->
 
 </body>
 </html>
++
