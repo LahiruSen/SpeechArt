@@ -1,5 +1,4 @@
 
-
 window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 const synth = window.speechSynthesis;
 const recognition = new SpeechRecognition();
@@ -11,7 +10,7 @@ recognition.continuous = true;
 const recordIcon = document.querySelector('#recordButton');
 const fileToUpload = document.querySelector('#fileToUpload');
 const stopIcon = document.querySelector('#stopButton');
-const displayIcon = document.querySelector('#displayContent');
+// const displayIcon = document.querySelector('#displayContent');
 const generateIcon = document.querySelector('#generateArticle');
 let paragraph = document.createElement('p');
 let container = document.querySelector('#inputText');
@@ -28,9 +27,9 @@ stopIcon.addEventListener('click', () => {
   recognition.stop();
 });
 
-displayIcon.addEventListener('click', () => {
-  populatePre('uploads/nlp.txt');
-});
+// displayIcon.addEventListener('click', () => {
+//   populatePre('uploads/nlp.txt');
+// });
 
 // send content to python backend
 

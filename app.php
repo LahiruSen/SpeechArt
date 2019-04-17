@@ -1,6 +1,33 @@
 <?php
 /* Main page with two forms: sign up and log in */
 require 'db.php';
+if (session_status() == PHP_SESSION_NONE) {    session_start();}
+
+if ( $_SESSION['logged_in'] != 1 ) {
+    $_SESSION['message'] = "You must log in before viewing your profile page!";
+    header("location: error.php");
+}
+else {
+    // Makes it easier to read
+    $first_name = $_SESSION['first_name'];
+    $last_name = $_SESSION['last_name'];
+    $email = $_SESSION['email'];
+
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $location = $_POST['location'];
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
 ?>
 
 
@@ -14,7 +41,7 @@ require 'db.php';
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="app.css">
     <script src="js/bootstrap.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">8
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <!-- load font awesome here for recordIcon used on the page -->
 </head>
 <body>
@@ -62,7 +89,7 @@ require 'db.php';
         <input type="submit" value="Upload File" name="submit" class="btn btn-primary btn-block"> <br>
     </form>
 
-    <button  id="displayContent" type="button" class="btn btn-primary btn-block">Display</button> <br>
+    <button onclick="window.location.href = 'viewUploads.php';" id="displayContent" type="button" class="btn btn-primary btn-block">Display Uploads</button> <br>
 
 
 
@@ -73,6 +100,8 @@ require 'db.php';
 </body>
 
 </html>
+
+
 
 
 

@@ -27,7 +27,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 
     <div class="m-4">
-        <a id="back_btn"><button class="button button-block">Back</button></a>
+        <a  href="app.php" id="back_btn"><button class="button button-block">Back</button></a>
     </div>
 
 </div>
