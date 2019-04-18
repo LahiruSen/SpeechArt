@@ -1,11 +1,11 @@
 <?php
 /* Main page with two forms: sign up and log in */
-require 'db.php';
+require '..\model\db.php';
 if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 if ( $_SESSION['logged_in'] != 1 ) {
     $_SESSION['message'] = "You must log in before viewing your profile page!";
-    header("location: error.php");
+    header("location: ../error.php");
 }
 else {
     // Makes it easier to read
@@ -29,7 +29,7 @@ else {
     }
     else{
         $_SESSION['message'] = 'You have not uploaded files before...';
-        header("location: error.php");
+        header("location: ../error.php");
     }
 
 
@@ -44,9 +44,9 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Speech Recognition</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="app.css">
-    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <!-- load font awesome here for recordIcon used on the page -->
 </head>

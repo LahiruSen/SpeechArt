@@ -1,11 +1,11 @@
 <?php
 /* Main page with two forms: sign up and log in */
-require 'db.php';
+require '..\model\db.php';
 if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 if ( $_SESSION['logged_in'] != 1 ) {
     $_SESSION['message'] = "You must log in before viewing your profile page!";
-    header("location: error.php");
+    header("location: ../error.php");
 }
 else {
     // Makes it easier to read
@@ -13,20 +13,7 @@ else {
     $last_name = $_SESSION['last_name'];
     $email = $_SESSION['email'];
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        $location = $_POST['location'];
-
-    }
-
-
-
 }
-
-
-
-
-
-
 
 ?>
 
@@ -38,9 +25,9 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Speech Recognition</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="app.css">
-    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <!-- load font awesome here for recordIcon used on the page -->
 </head>
@@ -53,16 +40,33 @@ else {
     <strong> Your speech will be displayed here...</strong>
     <div>
     <div id="inputText" name="inputText" class="text-box" contenteditable="true" type="text" value="Type here"  style=" max-height: 100%; max-width: 100%; background-color: rgba(0,0,255,.1)"></div>
+
+        <?php
+            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $location = $_POST['location'];
+                echo file_get_contents($location);
+                echo "<br><br>";
+            }
+            ?>
+
     <!--text box which will contain spoken text -->
         <!--<i class="fa fa-microphone"></i> &lt;!&ndash; microphone recordIcon to be clicked before speaking &ndash;&gt;-->
 
     </div>
-    <audio class="sound" src="chime.wav"></audio>
+    <audio class="sound" src="../chime.wav"></audio>
     <!-- sound to be played when we click recordIcon => http://soundbible.com/1598-Electronic-Chime.html -->
 
     <button  id="recordButton" type="button" class="btn btn-primary btn-block">Record</button>
     <button  id="stopButton" type="button" class="btn btn-primary btn-block">Stop</button>
     <button id="generateArticle" onclick="sendText()" type="button"  value="GenerateArticle" name="submit" class="btn btn-primary btn-block" >Generate Article</button>
+       <form name="identifyTopic" method="post" action="http://127.0.0.1:5000/">
+            <input type="text" name="text" >
+           <input type="submit"  value="Identify Topic">
+  </form>
+
+
+
+
         <br>
 
 
@@ -81,7 +85,7 @@ else {
 </form>
 
 
-    <form action="upload.php" method="post" enctype="multipart/form-data">
+    <form action="../control/upload.php" method="post" enctype="multipart/form-data">
 
         Select text or pdf to upload :<br>
         <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary"> <br> <br>
@@ -95,7 +99,7 @@ else {
 
 
 </div>
-    <script src="app.js"></script>
+    <script src="../js/app.js"></script>
 
 </body>
 

@@ -6,7 +6,7 @@
  * Time: 7:17 PM
  */
 
-require 'db.php';
+require '..\model\db.php';
 
 
 
@@ -29,7 +29,7 @@ if(strlen($_POST['password']) <8)
 {
 
     $_SESSION['message'] = 'Password should have at least 8 characters ';
-    header("location: error.php");
+    header("location: ../error.php");
 
 }
 // Check if user with that email already exists
@@ -39,7 +39,7 @@ $result = $mysqli->query("SELECT * FROM users WHERE email='$email'") or die($mys
 if ( $result->num_rows > 0 ) {
 
     $_SESSION['message'] = 'User with this email already exists!';
-    header("location: error.php");
+    header("location: ../error.php");
 
 }
 else { // Email doesn't already exist in a database, proceed...
@@ -54,12 +54,12 @@ else { // Email doesn't already exist in a database, proceed...
 
         $_SESSION['logged_in'] = true; // So we know the user has logged in
 
-        header("location: index.php");}
+        header("location: ../index.php");}
 
 
     else {
             $_SESSION['message'] = 'Registration failed!';
-            header("location: error.php");
+            header("location: ../error.php");
         }
 
     }

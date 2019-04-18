@@ -1,6 +1,6 @@
 <?php
 /* Main page with two forms: sign up and log in */
-require 'db.php';
+require 'model\db.php';
 if (session_status() == PHP_SESSION_NONE) {    session_start();}
 ?>
 <!DOCTYPE html>
@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
             </div>
 
 
-            <form action="login.php" method="post" autocomplete="off">
+            <form action="control/login.php" method="post" autocomplete="off">
 
                 <div class="field-wrap">
                     <label>

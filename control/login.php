@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();
 ?>
 <?php
 /* Main page with two forms: sign up and log in */
-require 'db.php';
+require '..\model\db.php';
 
 // Escape email to protect against SQL injections
 $email = $mysqli->escape_string($_POST['email']);
@@ -14,7 +14,7 @@ $result = $mysqli->query("SELECT * FROM users WHERE email='$email'");
 if ( $result->num_rows == 0 ){ // User doesn't exist
 
     $_SESSION['message'] = "User with that email doesn't exist!";
-    header("location: error.php");
+    header("location: ../error.php");
 }
 else { // User exists
     $user = $result->fetch_assoc();
@@ -33,7 +33,7 @@ else { // User exists
 
 
 
-                header("location: app.php");
+                header("location: ../view/app.php");
 
      
 
@@ -41,7 +41,7 @@ else { // User exists
     }
     else {
         $_SESSION['message'] = "You have entered wrong password, try again!";
-        header("location: error.php");
+        header("location: ../error.php");
     }
 }
 

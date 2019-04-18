@@ -1,3 +1,10 @@
+
+# #!C:\Users\HP\PycharmProjects\CorseEraNLP\venv\Scripts\python.exe
+# print("Content-Type: text/html\n")
+
+
+
+
 from nltk.corpus import brown
 import re
 from gensim import models, corpora
@@ -8,13 +15,18 @@ from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 import pyLDAvis.sklearn
 from IPython.core.getipython import get_ipython
+import sys
+
+# get data from arguments
+
+
 
 
 # get input from text file
 
-file = open("Caffeine.txt","r")
-data = file.read().splitlines()
-file.close()
+# file = open("Caffeine.txt","r")
+# data = file.read().splitlines()
+# file.close()
 
 
 
@@ -22,14 +34,14 @@ file.close()
 
 
 # Prepare the dataset
-# data = []
-#
-# for fileid in brown.fileids():
-#     document = ' '.join(brown.words(fileid))
-#     data.append(document)
-#
-# noOfDocuments = len(data)
-# print(noOfDocuments)
+data = []
+
+for fileid in brown.fileids():
+    document = ' '.join(brown.words(fileid))
+    data.append(document)
+
+noOfDocuments = len(data)
+print(noOfDocuments)
 
 
 # Text Cleaning

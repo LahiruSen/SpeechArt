@@ -1,6 +1,6 @@
 <?php
 /* Main page with two forms: sign up and log in */
-require 'db.php';
+require 'model\db.php';
 if (session_status() == PHP_SESSION_NONE) {    session_start();}
 ?>
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
     <h1  style="color:Tomato;">Speech Art</h1>
     <ul class="tab-group">
         <li class="tab"><a href="signup.php">Sign Up</a></li>
-        <li class="tab active"><a href="login.php">Log In</a></li>
+        <li class="tab active"><a href="control/login.php">Log In</a></li>
     </ul>
 
     <div class="tab-content">
@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
             </div>
 
 
-            <form action="register.php" method="post" autocomplete="off">
+            <form action="control/register.php" method="post" autocomplete="off">
 
                 <div class="top-row">
                     <div class="field-wrap">

@@ -41,9 +41,9 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/moment.min.js"></script>
-<script type="text/javascript" src="js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/moment.min.js"></script>
+<script type="text/javascript" src="../js/tempusdominus-bootstrap-4.min.js"></script>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 
