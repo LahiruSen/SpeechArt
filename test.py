@@ -24,11 +24,10 @@
 #!/usr/bin/env python
 
 import sys
-import
 
 # def():
 #     return ('Number of arguments:', len(sys.argv), 'arguments.')
 # print ('Argument List:', str(sys.argv))
 
 
-print (len(sys.argv))
+print (sys.argv[1])

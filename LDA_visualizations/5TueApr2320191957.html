@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
+
+
+<div id="ldavis_el160442787013605496211258"></div>
+<script type="text/javascript">
+
+var ldavis_el160442787013605496211258_data = {"mdsDat": {"x": [45.83319854736328, 45.9119758605957, -246.23175048828125, -106.64144897460938, 200.30224609375, 194.0020751953125, -91.82046508789062, -91.88371276855469, -239.95639038085938, 60.725345611572266], "y": [-160.11691284179688, 25.342769622802734, -104.55296325683594, -222.08013916015625, 93.90373229980469, -88.46470642089844, 149.6065673828125, -35.89686965942383, 77.82865142822266, 211.4610137939453], "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "cluster": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "Freq": [29.55233083754339, 26.58845518054082, 17.480576491170194, 3.76868771783746, 3.768463877301503, 3.7683290256377213, 3.768324558589684, 3.7682980302518194, 3.768277789175087, 3.7682564919523065]}, "tinfo": {"Category": ["Default", "Default", "Default", "Topic1", "Topic1", "Topic1", "Topic2", "Topic2", "Topic2", "Topic3", "Topic3", "Topic3", "Topic4", "Topic4", "Topic4", "Topic5", "Topic5", "Topic5", "Topic6", "Topic6", "Topic6", "Topic7", "Topic7", "Topic7", "Topic8", "Topic8", "Topic8", "Topic9", "Topic9", "Topic9", "Topic10", "Topic10", "Topic10"], "Freq": [6.0, 7.0, 9.0, 5.279281681289388, 1.3146155921775788, 0.20313881916801374, 4.055128534865405, 1.7745204107289472, 0.28569574593003777, 3.468316990327909, 0.2412612420858908, 0.31095436055534464, 0.440019988765263, 0.3346599256323379, 0.09211826070501493, 0.3837310037044222, 0.2632526427360328, 0.21976304533889082, 0.30426188674073273, 0.30059952191990097, 0.26185426723604216, 0.3317585695602036, 0.2691751093795893, 0.2657809695358346, 0.32960839943671916, 0.2710152129159276, 0.2660849346052719, 0.2936133519177119, 0.3124042702357076, 0.2606862693568506, 0.2861361360645208, 0.2870433142305919, 0.29351954285391807], "Term": ["situation", "laughter", "humor", "humor", "laughter", "situation", "situation", "humor", "laughter", "laughter", "situation", "humor", "situation", "laughter", "humor", "humor", "situation", "laughter", "situation", "laughter", "humor", "laughter", "situation", "humor", "laughter", "situation", "humor", "situation", "laughter", "humor", "situation", "laughter", "humor"], "Total": [6.0, 7.0, 9.0, 9.188531700571035, 7.184465374789879, 6.627002924639087, 6.627002924639087, 9.188531700571035, 7.184465374789879, 7.184465374789879, 6.627002924639087, 9.188531700571035, 6.627002924639087, 7.184465374789879, 9.188531700571035, 9.188531700571035, 6.627002924639087, 7.184465374789879, 6.627002924639087, 7.184465374789879, 9.188531700571035, 7.184465374789879, 6.627002924639087, 9.188531700571035, 7.184465374789879, 6.627002924639087, 9.188531700571035, 6.627002924639087, 7.184465374789879, 9.188531700571035, 6.627002924639087, 7.184465374789879, 9.188531700571035], "loglift": [3.0, 2.0, 1.0, 0.6648, -0.4794, -2.266, 0.8335, -0.3197, -1.9001, 1.0158, -1.5689, -1.642, 0.5664, 0.2119, -1.3242, 0.1027, 0.0527, -0.2086, 0.1975, 0.1046, -0.2794, 0.2033, 0.075, -0.2645, 0.1968, 0.0818, -0.2633, 0.1619, 0.1432, -0.2838, 0.1361, 0.0585, -0.1652], "logprob": [3.0, 2.0, 1.0, -0.2527, -1.6429, -3.5104, -0.4108, -1.2373, -3.0636, -0.1477, -2.8133, -2.5595, -0.678, -0.9517, -2.2417, -0.8148, -1.1916, -1.3722, -1.0468, -1.0589, -1.1969, -0.9603, -1.1693, -1.182, -0.9668, -1.1625, -1.1809, -1.0824, -1.0204, -1.2014, -1.1082, -1.1051, -1.0827]}, "token.table": {"Topic": [1, 2, 1, 3, 2], "Freq": [0.5441565815884672, 0.21766263263538688, 0.1391892016779671, 0.41756760503390133, 0.6035911022655606], "Term": ["humor", "humor", "laughter", "laughter", "situation"]}, "R": 3, "lambda.step": 0.01, "plot.opts": {"xlab": "PC1", "ylab": "PC2"}, "topic.order": [2, 5, 3, 9, 10, 1, 4, 8, 6, 7]};
+
+function LDAvis_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(LDAvis) !== "undefined"){
+   // already loaded: just create the visualization
+   !function(LDAvis){
+       new LDAvis("#" + "ldavis_el160442787013605496211258", ldavis_el160442787013605496211258_data);
+   }(LDAvis);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/LDAvis
+   require.config({paths: {d3: "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+        new LDAvis("#" + "ldavis_el160442787013605496211258", ldavis_el160442787013605496211258_data);
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & LDAvis
+    LDAvis_load_lib("https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js", function(){
+         LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+                 new LDAvis("#" + "ldavis_el160442787013605496211258", ldavis_el160442787013605496211258_data);
+            })
+         });
+}
+</script>

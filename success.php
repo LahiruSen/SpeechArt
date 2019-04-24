@@ -14,15 +14,28 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
         <h1><?= 'Success'; ?></h1>
         <h5 class="text-success">
             <?php
-            if( isset($_SESSION['message']) ):
+            if( isset($_SESSION['message']) ){
+
                 echo $_SESSION['message'];
                 unset($_SESSION['message']);
-            else:
-                header( "location: index.php" );
-            endif;
+         }
+            else {
+                header("location: index.php");
+            }
             ?>
         </h5>
     </div>
+
+    <?php
+    if(isset($_GET['filename'])){
+
+        $path = "\LDA_visualizations\\".$_GET['filename'].".html";
+        echo "<a href=".$path." id=\"back_btn\"><button class=\"button button-block\">View Results</button></a>";
+
+    }
+
+    ?>
+
     <a href="index.php"><button class="button button-block">Home</button></a>
 
 

@@ -30,4 +30,4 @@ import sys
 # print ('Argument List:', str(sys.argv))
 
 
-print  (len(sys.argv))
+print(len(sys.argv))

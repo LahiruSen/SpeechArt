@@ -12,7 +12,7 @@ else {
     $first_name = $_SESSION['first_name'];
     $last_name = $_SESSION['last_name'];
     $email = $_SESSION['email'];
-
+    $user_id = $_SESSION['user_id'];
 }
 
 ?>
@@ -63,12 +63,29 @@ else {
 
                     }
                     else{
+                        $newContent = $_POST['contents'];
+                        $newContent = trim(preg_replace('/\s+/', ' ', $newContent));
+                        $newContent = '"'.$newContent.'"';
 
-                        $newContent = '"'.$_POST['contents'].'"';
+//                        $output =   exec("C:/xampp/htdocs/SpeechArt/identifyTopic.py ".$newContent);
 
-                        $output =   exec("test.py ".$newContent);
-                        var_dump($output);
-                                die();
+                        $time = date("D M d, Y G:i");
+                        $time = preg_replace("/[^a-zA-Z0-9]+/", "", $time);
+                        $unique = '"'.$user_id.$time.'"';
+                        $python = "C:/Users/HP/PycharmProjects/CorseEraNLP/venv/Scripts/python.exe";
+                        $script = "C:/xampp/htdocs/SpeechArt/identifyTopic.py 2>&1";
+                        $cmd = "$python $script $newContent $unique";
+                        $output =   exec("$cmd",$output1, $return);
+                        if ($return==0){
+                            $_SESSION['message'] = "Topic Identification was Successful".$output1;
+                            header("location: ../success.php?filename=".$user_id.$time);
+                            die();
+                        }
+                        else{
+                            $_SESSION['message'] = $output;
+                            header("location: ../error.php");
+                            die();
+                        }
 
                 }}
                 else{
