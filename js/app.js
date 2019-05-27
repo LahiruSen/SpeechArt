@@ -16,6 +16,11 @@ let paragraph = document.createElement('p');
 let container = document.querySelector('#inputText');
 container.appendChild(paragraph);
 const sound = document.querySelector('.sound');
+// let voiceText = ;
+
+
+
+
 
 recordIcon.addEventListener('click', () => {
   sound.play();
@@ -23,8 +28,10 @@ recordIcon.addEventListener('click', () => {
 });
 
 stopIcon.addEventListener('click', () => {
+  loadText();
   sound.play();
   recognition.stop();
+  //document.querySelector("#voiceText") = "Lahiru";
 });
 
 // displayIcon.addEventListener('click', () => {
@@ -56,6 +63,7 @@ const dictate = () => {
     
     paragraph.textContent = finalTranscript+interimTranscript;
 
+
  // }}
 
 
@@ -72,6 +80,11 @@ function populatePre(url) {
   xhr.send();
 }
 
+function loadText(){
+  var loadedtext = document.getElementById("inputText").textContent;
+  document.getElementById("voiceText").value = loadedtext;
+
+}
 
 
 

@@ -3,7 +3,7 @@
 if (session_status() == PHP_SESSION_NONE) {    session_start();}
 ?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Success</title>
     <?php include 'css/css.html'; ?>
@@ -28,10 +28,18 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
     <?php
     if(isset($_GET['filename'])){
+        $path = $_GET['filename'].".html";
+        ?>
+        <form action="control/combine.php" method="post">
+            <input type="hidden" name="fileLink" value="<?php echo $path ?>">
+            <button type="submit" class="button button-block">View Results</button>
 
-        $path = "\LDA_visualizations\\".$_GET['filename'].".html";
-        echo "<a href=".$path." id=\"back_btn\"><button class=\"button button-block\">View Results</button></a>";
+        </form>
 
+    <?php
+
+       // echo "<a href=".$path." id=\"back_btn\"><button class=\"button button-block\">View Results</button></a>";
+        echo "<br>";
     }
 
     ?>
@@ -40,7 +48,8 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 
     <div class="m-4">
-        <a href="view/app.php" id="back_btn"><button class="button button-block">Back</button></a>
+<!--        <a href="view/app.php" id="back_btn"><button class="button button-block">Back</button></a>-->
+        <a  id="back_btn"><button class="button button-block" onclick="goBack()">Back</button></a>
     </div>
 
 </div>
@@ -67,11 +76,18 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 <script src="js/freelancer.js"></script>
 
 
-<script type="text/javascript">
-    $("#back_btn").on('click',function (e) {
+<!--<script type="text/javascript">-->
+<!--    $("#back_btn").on('click',function (e) {-->
+<!---->
+<!--        window.history.back();-->
+<!--    })-->
+<!--</script>-->
 
+
+<script>
+    function goBack() {
         window.history.back();
-    })
+    }
 </script>
 </body>
 </html>

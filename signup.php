@@ -81,6 +81,16 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
                 </div>
 
 
+                <div class="field-wrap">
+                    <label>
+                        Enter Password Again<span class="req">*</span>
+                    </label>
+
+                    <input  id="password1" type="password" required autocomplete="off" name='password1' aria-describedby="btnGroupAddon" pattern=".{8,}" title="Should have atleast 8 charactors" />
+                    <span id="passwordicon1" class="fa fa-eye " style="color: white; float: right; margin-right: 10px;margin-top: -24px; position: relative;z-index: 2;" ></span>
+                </div>
+
+
                 <button type="submit" class="button button-block" name="register" />Register</button>
 
             </form>

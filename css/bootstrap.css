@@ -3087,6 +3087,24 @@ fieldset:disabled a.btn {
   width: 100%;
 }
 
+.btn-block-result-home {
+  position: relative;
+  width: 20%;
+  left: 200px;
+}
+
+.btn-block-result-logout {
+  position: relative;
+  width: 20%;
+  left : 250px;
+}
+
+.btn-block-result-back{
+  position: relative;
+  width: 20%;
+  left : 300px;
+}
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }

@@ -28,10 +28,11 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();
             ?>
         </h5>
     </div>
-    <a href="index.php"><button class="button button-block">Home</button></a>
+    <a href="http://localhost/speechart/view/app.php"><button class="button button-block">Home</button></a>
 
     <div class="m-4">
-        <a id="back_btn"><button class="button button-block">Back</button></a>
+<!--        <a id="back_btn"><button class="button button-block">Back</button></a>-->
+        <a id="back_btn"><button class="button button-block" onclick="goBack()">Back</button></a>
     </div>
 
 
@@ -59,11 +60,19 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();
 <script src="js/freelancer.js"></script>
 
 
-<script type="text/javascript">
-    $("#back_btn").on('click',function (e) {
+<!--<script type="text/javascript">-->
+<!--    $("#back_btn").on('click',function (e) {-->
+<!---->
+<!--        window.history.back();-->
+<!--    })-->
+<!--</script>-->
 
+<script>
+    function goBack() {
         window.history.back();
-    })
+    }
 </script>
+
+
 </body>
 </html>

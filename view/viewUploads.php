@@ -78,9 +78,7 @@ else {
         <tr>
             <form action="app.php" method="post">
 
-
-
-                <td><?php echo $r->location; ?></td>
+                <td><?php echo substr($r->location, 11); ?></td>
                 <td><?php echo $r->topic; ?></td>
                 <td><input class="btn btn-dark text-light" type="submit" value="display" name="display"></td>
                 <td><input type="hidden" value="<?php echo $r->location; ?>" name="location"> </td>

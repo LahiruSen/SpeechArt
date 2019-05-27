@@ -6,8 +6,8 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 // Check if user is logged in using the session variable
 if ( $_SESSION['logged_in'] != 1 ) {
-    $_SESSION['message'] = "You must log in before viewing your profile page!";
-    header("location: ../view/error.php");
+    $_SESSION['message'] = "You must log in before viewing this page!";
+    header("location: ../error.php");
 }
 else {
     // Makes it easier to read
@@ -17,20 +17,15 @@ else {
     $user_id = $_SESSION['user_id'];
 
     $target_dir = "../uploads/";
+    $basename =  basename($_FILES["fileToUpload"]["name"]);
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
-    $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+    $FileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 //    $newfilename = round(microtime(true)) . '.' . end($user_id);
 // Check if image file is a actual image or fake image
     if (isset($_POST["submit"])) {
-
+        if($basename!=""){
         $uploadOk = 1;
-        if (file_exists($target_file)) {
-            $uploadOk = 0;
-            $_SESSION['message'] = "Sorry, file already exists.";
-            header("location: ../error.php");
-            die();
-        }
 // Check file size
         if ($_FILES["fileToUpload"]["size"] > 50000000) {
             $uploadOk = 0;
@@ -40,10 +35,10 @@ else {
 
         }
 // Allow certain file formats
-        if ($imageFileType != "pdf" && $imageFileType != "txt" && $imageFileType != "doc") {
+        if ( $FileType != "txt" ) {
             $uploadOk = 0;
 
-            $_SESSION['message'] = "Sorry, only PDF, DOC, TEXT files are allowed.";
+            $_SESSION['message'] = "Sorry, only TEXT files are allowed.";
             header("location: ../error.php");
             die();
         }
@@ -55,6 +50,8 @@ else {
             die();
 // if everything is ok, try to upload file
         } else {
+
+
             if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
 
 
@@ -80,7 +77,18 @@ else {
 // Check if file already exists
 
 
-}}
+}
+
+    else{
+        $_SESSION['message'] = "Please select a text file to upload.";
+        header("location: ../error.php");
+        die();
+
+
+
+    }
+    }
+    }
 ?>
 
 <script src="..\js\app.js"></script>

@@ -2,13 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2abdfea6-e104-4b57-8914-bd3e5eb3399d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Testing/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/db_nginx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/identifyTopic_Sklearn(LDA).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/identifyTopic_gensim(LDA).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/identifyTopic_gensim(LSI).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flaskenv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LDA_Visualization.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifyTopic.py" beforeDir="false" afterPath="$PROJECT_DIR$/identifyTopic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/delete/templates/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/delete/templates/pass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/delete/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/newApproach/lda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/python_files/Caffeine.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/python_files/medium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/python_files/preProcessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/templates/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/templates/database" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/templates/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted/delete/text_preprocessing/nlp_preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOST/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191937LDA_Visualization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191947.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191948.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191951.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191953.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320191957.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192007.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192016.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192017.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192022.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/5TueApr2320192025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA_visualizations/LDA_Visualization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Edits/bruteforce_edits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/db-connect-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/db-connect-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifyTopic.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/identifyTopic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/LDA_Visualization.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/view/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewUploads.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewUploads.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,35 +82,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/identifyTopic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="117" column="91" selection-start-line="117" selection-start-column="91" selection-end-line="117" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sound</find>
-      <find>display</find>
-      <find>paragraph</find>
-      <find>register</find>
-      <find>form</find>
       <find>index.php</find>
       <find>8</find>
       <find>n_topics</find>
@@ -71,11 +104,28 @@
       <find>success</find>
       <find>signup</find>
       <find>error</find>
-      <find>submit</find>
       <find>inputtext</find>
       <find>noofDocuments</find>
       <find>data</find>
+      <find>Sorry, file already exists.</find>
+      <find>submit</find>
+      <find>doc_name</find>
+      <find>logout</find>
+      <find>view</find>
       <find>print</find>
+      <find>identify</find>
+      <find>record</find>
+      <find>display</find>
+      <find>identify topic</find>
+      <find>input</find>
+      <find>your sp</find>
+      <find>inputText</find>
+      <find>voiceText</find>
+      <find>stop</find>
+      <find>btn-danger</find>
+      <find>btn-prima</find>
+      <find>btn-blo</find>
+      <find>btn-block-resul</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -90,44 +140,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/appBackUP.js" />
-        <option value="$PROJECT_DIR$/newapp.js" />
-        <option value="$PROJECT_DIR$/css/button.css" />
-        <option value="$PROJECT_DIR$/button.js" />
-        <option value="$PROJECT_DIR$/js/button.js" />
-        <option value="$PROJECT_DIR$/uploadFile.php" />
-        <option value="$PROJECT_DIR$/templates/app.html" />
-        <option value="$PROJECT_DIR$/textrequest.py" />
-        <option value="$PROJECT_DIR$/uploads/python/app.py" />
-        <option value="$PROJECT_DIR$/uploads/python/templates/models.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/nlp_basic.py" />
-        <option value="$PROJECT_DIR$/text_preprocessing/nlp_preprocessing.py" />
-        <option value="$PROJECT_DIR$/app.html" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/newApproach/lda.py" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/python_files/medium.py" />
-        <option value="$PROJECT_DIR$/app.php" />
-        <option value="$PROJECT_DIR$/app.css" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/viewUploads.php" />
-        <option value="$PROJECT_DIR$/upload.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/error.php" />
         <option value="$PROJECT_DIR$/view/signup.php" />
         <option value="$PROJECT_DIR$/view/success.php" />
         <option value="$PROJECT_DIR$/css/css.html" />
-        <option value="$PROJECT_DIR$/signup.php" />
-        <option value="$PROJECT_DIR$/error.php" />
-        <option value="$PROJECT_DIR$/control/login.php" />
-        <option value="$PROJECT_DIR$/control/register.php" />
-        <option value="$PROJECT_DIR$/view/viewUploads.php" />
-        <option value="$PROJECT_DIR$/control/upload.php" />
         <option value="$PROJECT_DIR$/pass.html" />
         <option value="$PROJECT_DIR$/templates/app.php" />
         <option value="$PROJECT_DIR$/nlpforhackers.py" />
@@ -135,15 +151,54 @@
         <option value="$PROJECT_DIR$/callPython.php" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/view/test.py" />
+        <option value="$PROJECT_DIR$/signup.php" />
+        <option value="$PROJECT_DIR$/control/register.php" />
+        <option value="$PROJECT_DIR$/control/login.php" />
+        <option value="$PROJECT_DIR$/control/logout.php" />
+        <option value="$PROJECT_DIR$/control/validator.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/HOST/db.php" />
+        <option value="$PROJECT_DIR$/view/viewUploads.php" />
+        <option value="$PROJECT_DIR$/model/db.php" />
+        <option value="$PROJECT_DIR$/Testing/db_nginx.php" />
+        <option value="$PROJECT_DIR$/Testing/db-connect-test.php" />
+        <option value="$PROJECT_DIR$/Testing/db.php" />
+        <option value="$PROJECT_DIR$/Testing/index.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/control/login.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/control/register.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/view/viewUploads.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/index.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/signup.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/model/db.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/control/upload.php" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/error.php" />
         <option value="$PROJECT_DIR$/identifyTopic.py" />
         <option value="$PROJECT_DIR$/view/app.php" />
+        <option value="$PROJECT_DIR$/view/combine.php" />
         <option value="$PROJECT_DIR$/success.php" />
+        <option value="$PROJECT_DIR$/control/combine.php" />
+        <option value="$PROJECT_DIR$/css/result.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/view/result.html" />
+        <option value="$PROJECT_DIR$/control/upload.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/view/app.php" />
+        <option value="$PROJECT_DIR$/digitalOcean/identifyTopic.py" />
+        <option value="$PROJECT_DIR$/model/identifyTopic_gensim.py" />
+        <option value="$PROJECT_DIR$/Testing/identifyTopic_gensim.py" />
+        <option value="$PROJECT_DIR$/Testing/identifyTopic_gensim(LSI).py" />
+        <option value="$PROJECT_DIR$/Testing/identifyTopic_gensim(LDA).py" />
+        <option value="$PROJECT_DIR$/Testing/identifyTopic.py" />
+        <option value="$PROJECT_DIR$/model/identifyTopic.py" />
+        <option value="$PROJECT_DIR$/Testing/identifyTopic_Sklearn(LDA).py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="683" />
-    <option name="height" value="697" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
@@ -170,25 +225,29 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\SpeechArt\view" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\SpeechArt\" />
+      <recent name="C:\xampp\htdocs\SpeechArt\Testing" />
+      <recent name="C:\xampp\htdocs\SpeechArt\control" />
+      <recent name="C:\xampp\htdocs\SpeechArt\model" />
+      <recent name="C:\xampp\htdocs\SpeechArt\Deleted\delete" />
       <recent name="C:\xampp\htdocs\SpeechArt\Deleted" />
-      <recent name="C:\xampp\htdocs\SpeechArt\uploads" />
-      <recent name="C:\xampp\htdocs\SpeechArt\delete" />
-      <recent name="C:\xampp\htdocs\SpeechArt\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SpeechArt\css" />
+      <recent name="C:\xampp\htdocs\SpeechArt\digitalOcean" />
+      <recent name="C:\xampp\htdocs\SpeechArt\model\Testing" />
+      <recent name="C:\xampp\htdocs\SpeechArt\Testing" />
+      <recent name="C:\xampp\htdocs\SpeechArt\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,8 +262,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.identifyTopic">
-    <configuration name="identifyTopic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.identifyTopic_Sklearn(LDA)">
+    <configuration name="db-connect-test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Testing/db-connect-test.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="identifyTopic_Sklearn(LDA)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="semesterProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/identifyTopic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing/identifyTopic_Sklearn(LDA).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nlp_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="identifyTopic_gensim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="semesterProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,34 +296,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text_preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_preprocessing/nlp_preprocessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="nlpforhackers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="semesterProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlpforhackers.py" />
+      <option name="SCRIPT_NAME" value="C:\xampp\htdocs\SpeechArt\Testing\identifyTopic_gensim(LDA).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,6 +354,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.identifyTopic_Sklearn(LDA)" />
+      <item itemvalue="Python.identifyTopic_gensim" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.textrequest" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -366,32 +412,42 @@
       <workItem from="1555895225377" duration="942000" />
       <workItem from="1555998472655" duration="2997000" />
       <workItem from="1556020960478" duration="49000" />
-      <workItem from="1556021357729" duration="6464000" />
+      <workItem from="1556021357729" duration="10779000" />
+      <workItem from="1557767955833" duration="5309000" />
+      <workItem from="1558510370555" duration="13024000" />
+      <workItem from="1558615687025" duration="4991000" />
+      <workItem from="1558639225993" duration="1134000" />
+      <workItem from="1558673466245" duration="2875000" />
+      <workItem from="1558710184620" duration="1056000" />
+      <workItem from="1558711411922" duration="9000" />
+      <workItem from="1558711560767" duration="24290000" />
+      <workItem from="1558961899621" duration="277000" />
+      <workItem from="1558962184030" duration="1051000" />
+      <workItem from="1558963294741" duration="685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177806000" />
+    <option name="totallyTimeSpent" value="253509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32392028" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32569557" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49848714" weight="0.40425533" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49848714" visible="true" weight="0.17839608" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2569558" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25204584" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50226927" side_tool="true" weight="0.40425533" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -399,276 +455,324 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" weight="0.022692889" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="0" weight="0.32392028" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49848714" visible="true" weight="0.6579378" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2569558" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.400982" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Database" order="4" weight="0.022692889" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/appBackUP.js">
+    <entry file="file://$PROJECT_DIR$/control/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1819">
+          <caret line="112" column="86" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/button.css">
+    <entry file="file://$PROJECT_DIR$/control/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="51">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/button.js" />
-    <entry file="file://$PROJECT_DIR$/js/button.js">
+    <entry file="file://$PROJECT_DIR$/HOST/db.php" />
+    <entry file="file://$PROJECT_DIR$/control/validator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="17">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploadFile.php" />
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/templates/app.html">
+    <entry file="file://$PROJECT_DIR$/view/viewUploads.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textrequest.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/Testing/db_nginx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/1.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
-    <entry file="file://$PROJECT_DIR$/app.html" />
-    <entry file="file://$PROJECT_DIR$/newapp.html" />
-    <entry file="file://$PROJECT_DIR$/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/db.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/db-connect-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="1224">
+          <caret line="88" column="41" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/register.php">
+    <entry file="file://$PROJECT_DIR$/Testing/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error.php">
+    <entry file="file://$PROJECT_DIR$/digitalOcean/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/css/css.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/control/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/newApproach/lda.py">
+    <entry file="file://$PROJECT_DIR$/digitalOcean/control/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/control/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/control/validator.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/view/viewUploads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1103">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/model/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/js/appBackUP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/python_files/preProcessing.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/python_files/medium.py">
+    <entry file="file://$PROJECT_DIR$/digitalOcean/model/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/templates/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/templates/database">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/delete/text_preprocessing/nlp_preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deleted/app.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/callPython.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="461">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="1071">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/legacy.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="618" column="18" selection-start-line="618" selection-start-column="18" selection-end-line="618" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/test.py">
+    <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/identifyTopic.py">
+    <entry file="file://$PROJECT_DIR$/control/combine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="117" column="91" selection-start-line="117" selection-start-column="91" selection-end-line="117" selection-end-column="91" />
+        <state relative-caret-position="102">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewUploads.php">
+    <entry file="file://$PROJECT_DIR$/css/result.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="22">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/How Humor Heals.txt">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="3092" column="11" selection-start-line="3092" selection-start-column="11" selection-end-line="3092" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/control/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalOcean/view/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/CorseEraNLP/venv/Lib/site-packages/nltk/corpus/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/login.php">
+    <entry file="file://$PROJECT_DIR$/digitalOcean/identifyTopic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="80" column="86" selection-start-line="80" selection-start-column="86" selection-end-line="80" selection-end-column="86" />
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/success.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="416">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/identifyTopic_gensim(LDA).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/identifyTopic_gensim(LSI).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/identifyTopic_Sklearn(LDA).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/identifyTopic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

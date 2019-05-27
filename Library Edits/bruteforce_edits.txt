@@ -1,2 +1,0 @@
-C:\Users\HP\PycharmProjects\CorseEraNLP\venv\Lib\site-packages\past\types\oldstr.py
-C:\Users\HP\PycharmProjects\CorseEraNLP\venv\Lib\site-packages\past\translation\__init.py__
