@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
+
+
+<div id="ldavis_el174842395963369408946175"></div>
+<script type="text/javascript">
+
+var ldavis_el174842395963369408946175_data = {"mdsDat": {"x": [-632.0454711914062, -1209.6654052734375, -1437.4532470703125], "y": [-384.3250732421875, 212.16412353515625, -586.322509765625], "topics": [1, 2, 3], "cluster": [1, 1, 1], "Freq": [44.518093735582646, 44.133084279877224, 11.34882198454013]}, "tinfo": {"Category": ["Default", "Default", "Default", "Default", "Topic1", "Topic1", "Topic1", "Topic1", "Topic2", "Topic2", "Topic2", "Topic2", "Topic3", "Topic3", "Topic3", "Topic3"], "Freq": [9.0, 8.0, 7.0, 18.0, 7.5449787349842445, 9.684555481354291, 1.2112382753660316, 0.7020078145959749, 6.75161437833663, 4.509100804385428, 7.23021719720725, 0.48629386041790285, 1.2910959424529584, 1.0597419889053437, 1.0889854868898845, 1.4401700351040707], "Term": ["problems", "childhood", "kids", "obesity", "problems", "obesity", "kids", "childhood", "childhood", "kids", "obesity", "problems", "kids", "childhood", "problems", "obesity"], "Total": [9.0, 8.0, 7.0, 18.0, 9.12025808229203, 18.35494271366561, 7.011435022204418, 8.513364181837948, 8.513364181837948, 7.011435022204418, 18.35494271366561, 9.12025808229203, 7.011435022204418, 8.513364181837948, 9.12025808229203, 18.35494271366561], "loglift": [4.0, 3.0, 2.0, 1.0, 0.6197, 0.1699, -0.9466, -1.6862, 0.5861, 0.3765, -0.1137, -2.1135, 0.484, 0.0924, 0.0508, -0.3691], "logprob": [4.0, 3.0, 2.0, 1.0, -0.931, -0.6814, -2.7603, -3.3057, -1.0335, -1.4371, -0.965, -3.6642, -1.3297, -1.5271, -1.4999, -1.2204]}, "token.table": {"Topic": [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 3], "Freq": [0.117462377814561, 0.8222366447019269, 0.117462377814561, 0.1426241556590218, 0.713120778295109, 0.1426241556590218, 0.5448123786599892, 0.38136866506199246, 0.05448123786599893, 0.8771681599156571, 0.10964601998945714], "Term": ["childhood", "childhood", "childhood", "kids", "kids", "kids", "obesity", "obesity", "obesity", "problems", "problems"]}, "R": 4, "lambda.step": 0.01, "plot.opts": {"xlab": "PC1", "ylab": "PC2"}, "topic.order": [1, 3, 2]};
+
+function LDAvis_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(LDAvis) !== "undefined"){
+   // already loaded: just create the visualization
+   !function(LDAvis){
+       new LDAvis("#" + "ldavis_el174842395963369408946175", ldavis_el174842395963369408946175_data);
+   }(LDAvis);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/LDAvis
+   require.config({paths: {d3: "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+        new LDAvis("#" + "ldavis_el174842395963369408946175", ldavis_el174842395963369408946175_data);
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & LDAvis
+    LDAvis_load_lib("https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js", function(){
+         LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+                 new LDAvis("#" + "ldavis_el174842395963369408946175", ldavis_el174842395963369408946175_data);
+            })
+         });
+}
+</script>

@@ -43,16 +43,7 @@ else {
     <div id="inputText" name="inputText" class="text-box" contenteditable="true" type="text" value="Type here"  style=" max-height: 100%; max-width: 100%; background-color: rgba(0,0,255,.1)">
 
         <?php
-
-
-
-
-
-
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-
-
 
                 if(isset($_POST['location'])){
             $location = $_POST['location'];
@@ -133,10 +124,6 @@ else {
 
 
   </form>
-
-
-
-
         <br>
 
 

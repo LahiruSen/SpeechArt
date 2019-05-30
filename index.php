@@ -64,7 +64,7 @@ if (session_status() == PHP_SESSION_NONE) {    session_start();}
 
 <!--                <p class="forgot"><a href="forgot.php">Forgot Password?</a></p>-->
 
-                <button class="button button-block" name="login" type="submit" />Log In</button>
+                <button class="button button-block" name="login" type="submit" id="loginButtonId" />Log In</button>
 
             </form>
 

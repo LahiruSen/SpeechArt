@@ -3090,19 +3090,19 @@ fieldset:disabled a.btn {
 .btn-block-result-home {
   position: relative;
   width: 20%;
-  left: 200px;
+  left: 5%;
 }
 
 .btn-block-result-logout {
   position: relative;
   width: 20%;
-  left : 250px;
+  left : 15%;
 }
 
 .btn-block-result-back{
   position: relative;
   width: 20%;
-  left : 300px;
+  left : 30%;
 }
 
 .btn-block + .btn-block {
